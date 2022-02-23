@@ -16,18 +16,16 @@ a {
 
 /* Large steam-line animation */
 
-#steamLeftLarge {
-    width: 1000%; 
+#steamLeftLarge { 
     max-width: 35px; 
     display: block;
-    position: fixed; 
+    position: absolute; 
     margin-left: 126px;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
 
-#steamMiddleLarge {
-    width: 100%; 
+#steamMiddleLarge { 
     max-width: 35px; 
     position:absolute; 
     margin-left: 200px;
@@ -36,7 +34,6 @@ a {
 }
 
 #steamRightLarge {
-    width: 100%; 
     max-width: 35px; 
     position:absolute; 
     margin-left: 270px;
@@ -47,27 +44,24 @@ a {
 /* Medium steam-line animation */
 
 #steamLeftMedium {
-    width: 100%; 
     max-width: 20px; 
-    position: fixed; 
+    position:absolute; 
     margin-left: 86px;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
 
-#steamMiddleMedium {
-    width: 100%; 
+#steamMiddleMedium { 
     max-width: 20px; 
-    position: fixed; 
+    position:absolute; 
     margin-left: 131px;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
 
 #steamRightMedium {
-    width: 100%; 
     max-width: 20px; 
-    position: fixed; 
+    position:absolute; 
     margin-left: 176px;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;   
@@ -75,31 +69,29 @@ a {
 
 /* Small steam-line animation */
 
-#steamLeftSmall {
-    width: 100%; 
+#steamLeftSmall { 
     max-width: 20px; 
-    position: fixed; 
+    position:absolute; 
     margin-left: 86px;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
 
 #steamMiddleSmall {
-    width: 100%; 
     max-width: 20px; 
-    position: fixed; 
+    position:absolute; 
     margin-left: 131px;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
 
 #steamRightSmall {
-    width: 100%; 
     max-width: 20px; 
-    position: fixed; 
+    position:absolute; 
     margin-left: 176px;
     opacity: 0;
-    animation: updown 4s ease 1.5s infinite;   
+    animation: updown 4s ease 1.5s infinite;
+       
 }
 
 @keyframes updown {
@@ -116,7 +108,7 @@ a {
     }
   }
 
-  @-webkit-keyframes updown { /* animation for chrome, safari & opera */
+@-webkit-keyframes updown { /* animation for chrome, safari & opera */
     0% {
       transform: translateY(-25%); opacity: 0;
     }
@@ -130,7 +122,7 @@ a {
     }
   }
 
-  @-moz-keyframes updown { /* animation for firefox */
+@-moz-keyframes updown { /* animation for firefox */
     0% {
       transform: translateY(-25%); opacity: 0;
     }
