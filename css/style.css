@@ -73,9 +73,7 @@ a {
     width: 100%;
     max-width: 20px;
     position:absolute; 
-    margin: auto 29% auto;
     opacity: 0;
-    transform: translate(-50%,-50%);
     animation: updown 4s ease infinite;
 }
 
@@ -83,9 +81,7 @@ a {
     width: 100%;
     max-width: 20px;
     position:absolute; 
-    margin: auto 35% auto;
     opacity: 0;
-    transform: translate(-50%,-50%);
     animation: updown 4s ease 3s infinite;
 }
 
@@ -93,11 +89,8 @@ a {
     width: 100%;
     max-width: 20px;
     position:absolute;
-    margin: auto 40% auto;
     opacity: 0;
-    transform: translate(-50%,-50%);
-    animation: updown 4s ease 1.5s infinite;
-       
+    animation: updown 4s ease 1.5s infinite;       
 }
 
 @keyframes updown {
