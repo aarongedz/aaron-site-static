@@ -71,9 +71,9 @@ a {
 
 #steamLeftSmall {
     width: 100%; 
-    max-width: 20px; 
+    max-width: 20px;
     position:absolute; 
-    margin: auto 46px auto !important;
+    margin: auto 86px auto !important;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
@@ -81,9 +81,8 @@ a {
 #steamMiddleSmall {
     width: 100%;
     max-width: 20px;
-    display: inline; 
     position:absolute; 
-    margin: auto 91px auto !important;
+    margin: auto 131px auto !important;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
@@ -91,9 +90,8 @@ a {
 #steamRightSmall {
     width: 100%;
     max-width: 20px;
-    display: inline;
     position:absolute; 
-    margin: auto 146px auto !important;
+    margin: auto 176px auto !important;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;
        
