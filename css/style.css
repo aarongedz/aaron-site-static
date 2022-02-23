@@ -71,10 +71,9 @@ a {
 
 #steamLeftSmall {
     width: 100%; 
-    max-width: 20px;
-    display: inline; 
+    max-width: 20px; 
     position:absolute; 
-    margin: auto 86px auto !important;
+    margin: auto 46px auto !important;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
@@ -84,7 +83,7 @@ a {
     max-width: 20px;
     display: inline; 
     position:absolute; 
-    margin: auto 131px auto !important;
+    margin: auto 91px auto !important;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
@@ -94,7 +93,7 @@ a {
     max-width: 20px;
     display: inline;
     position:absolute; 
-    margin: auto 176px auto !important;
+    margin: auto 146px auto !important;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;
        
