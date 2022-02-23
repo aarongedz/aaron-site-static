@@ -71,7 +71,8 @@ a {
 
 #steamLeftSmall {
     width: 100%; 
-    max-width: 20px; 
+    max-width: 20px;
+    display: inline; 
     position:absolute; 
     margin: auto 86px auto !important;
     opacity: 0;
@@ -80,7 +81,8 @@ a {
 
 #steamMiddleSmall {
     width: 100%;
-    max-width: 20px; 
+    max-width: 20px;
+    display: inline; 
     position:absolute; 
     margin: auto 131px auto !important;
     opacity: 0;
@@ -90,6 +92,7 @@ a {
 #steamRightSmall {
     width: 100%;
     max-width: 20px;
+    display: inline;
     position:absolute; 
     margin: auto 176px auto !important;
     opacity: 0;
