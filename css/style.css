@@ -72,7 +72,7 @@ a {
 #steamLeftSmall {
     width: 100%;
     max-width: 20px;
-    position:absolute; 
+    position: absolute;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
@@ -80,7 +80,7 @@ a {
 #steamMiddleSmall {
     width: 100%;
     max-width: 20px;
-    position:absolute; 
+    position: absolute; 
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
@@ -88,7 +88,7 @@ a {
 #steamRightSmall {
     width: 100%;
     max-width: 20px;
-    position:absolute; 
+    position: absolute; 
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;       
 }
