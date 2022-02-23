@@ -20,7 +20,7 @@ a {
     max-width: 35px; 
     display: block;
     position: absolute; 
-    margin-left: 126px;
+    margin: auto 126px auto;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
@@ -28,7 +28,7 @@ a {
 #steamMiddleLarge { 
     max-width: 35px; 
     position:absolute; 
-    margin-left: 200px;
+    margin: auto 200px auto;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
@@ -36,7 +36,7 @@ a {
 #steamRightLarge {
     max-width: 35px; 
     position:absolute; 
-    margin-left: 270px;
+    margin: auto 270px auto;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;   
 }
@@ -46,7 +46,7 @@ a {
 #steamLeftMedium {
     max-width: 20px; 
     position:absolute; 
-    margin-left: 86px;
+    margin: auto 86px auto;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
@@ -54,7 +54,7 @@ a {
 #steamMiddleMedium { 
     max-width: 20px; 
     position:absolute; 
-    margin-left: 131px;
+    margin: auto 131px auto;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
@@ -62,7 +62,7 @@ a {
 #steamRightMedium {
     max-width: 20px; 
     position:absolute; 
-    margin-left: 176px;
+    margin: auto 176px auto;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;   
 }
@@ -72,7 +72,7 @@ a {
 #steamLeftSmall { 
     max-width: 20px; 
     position:absolute; 
-    margin-left: 86px;
+    margin: auto 86px auto;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
@@ -80,7 +80,7 @@ a {
 #steamMiddleSmall {
     max-width: 20px; 
     position:absolute; 
-    margin-left: 131px;
+    margin: auto 131px auto;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
@@ -88,7 +88,8 @@ a {
 #steamRightSmall {
     max-width: 20px; 
     position:absolute; 
-    margin-left: 176px;
+    margin: auto 176px auto;
+    margin-right: auto;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;
        
