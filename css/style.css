@@ -70,7 +70,7 @@ a {
 /* Small steam-line animation */
 
 #steamLeftSmall {
-    width: 100%; 
+    width: 100%;
     max-width: 20px;
     position:absolute; 
     opacity: 0;
@@ -90,8 +90,7 @@ a {
     max-width: 20px;
     position:absolute; 
     opacity: 0;
-    animation: updown 4s ease 1.5s infinite;
-       
+    animation: updown 4s ease 1.5s infinite;       
 }
 
 @keyframes updown {
