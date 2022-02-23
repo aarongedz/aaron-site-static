@@ -14,28 +14,90 @@ a {
     letter-spacing: 3px
 }
 
-#steamlineleft {
+/* Large steam-line animation */
+
+#steamLeftLarge {
     width: 100%; 
     max-width: 35px; 
     position:absolute; 
-    margin-left: 128px;
+    margin-left: 126px;
+    opacity: 0;
     animation: updown 4s ease infinite;
 }
 
-#steamlinemiddle {
+#steamMiddleLarge {
     width: 100%; 
     max-width: 35px; 
     position:absolute; 
-    margin-left: 192px;
+    margin-left: 200px;
+    opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
 
-#steamlineright {
+#steamRightLarge {
     width: 100%; 
     max-width: 35px; 
     position:absolute; 
-    margin-left: 256px;
-    animation-delay: 2s;
+    margin-left: 270px;
+    opacity: 0;
+    animation: updown 4s ease 1.5s infinite;   
+}
+
+/* Medium steam-line animation */
+
+#steamLeftMedium {
+    width: 100%; 
+    max-width: 20px; 
+    position:absolute; 
+    margin-left: 86px;
+    opacity: 0;
+    animation: updown 4s ease infinite;
+}
+
+#steamMiddleMedium {
+    width: 100%; 
+    max-width: 20px; 
+    position:absolute; 
+    margin-left: 131px;
+    opacity: 0;
+    animation: updown 4s ease 3s infinite;
+}
+
+#steamRightMedium {
+    width: 100%; 
+    max-width: 20px; 
+    position:absolute; 
+    margin-left: 176px;
+    opacity: 0;
+    animation: updown 4s ease 1.5s infinite;   
+}
+
+/* Small steam-line animation */
+
+#steamLeftSmall {
+    width: 100%; 
+    max-width: 20px; 
+    position:absolute; 
+    margin-left: 86px;
+    opacity: 0;
+    animation: updown 4s ease infinite;
+}
+
+#steamMiddleSmall {
+    width: 100%; 
+    max-width: 20px; 
+    position:absolute; 
+    margin-left: 131px;
+    opacity: 0;
+    animation: updown 4s ease 3s infinite;
+}
+
+#steamRightSmall {
+    width: 100%; 
+    max-width: 20px; 
+    position:absolute; 
+    margin-left: 176px;
+    opacity: 0;
     animation: updown 4s ease 1.5s infinite;   
 }
 
