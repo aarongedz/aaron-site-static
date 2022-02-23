@@ -73,7 +73,6 @@ a {
     width: 100%; 
     max-width: 20px;
     position:absolute; 
-    margin: auto 86px auto !important;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
@@ -82,7 +81,6 @@ a {
     width: 100%;
     max-width: 20px;
     position:absolute; 
-    margin: auto 131px auto !important;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
@@ -91,7 +89,6 @@ a {
     width: 100%;
     max-width: 20px;
     position:absolute; 
-    margin: auto 176px auto !important;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;
        
