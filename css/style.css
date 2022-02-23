@@ -71,27 +71,31 @@ a {
 
 #steamLeftSmall {
     width: 100%; 
-    max-width: 20px; 
+    max-width: 20px;
+    display: inline-block; 
     position:absolute; 
-    margin: 0 30% 0;
+    margin: auto 86px auto;
     opacity: 0;
     animation: updown 4s ease infinite;
 }
 
 #steamMiddleSmall {
-    width: 100%; 
-    max-width: 20px; 
+    width: 100%;
+    max-width: 20px;
+    display: inline-block; 
     position:absolute; 
-    margin: 0 35% 0;
+    margin: auto 131px auto;
     opacity: 0;
     animation: updown 4s ease 3s infinite;
 }
 
 #steamRightSmall {
-    width: 100%; 
-    max-width: 20px; 
+    width: 100%;
+    max-width: 20px;
+    display: inline-block; 
     position:absolute; 
-    margin: 0 40% 0;
+    margin: auto 176px auto;
+    margin-right: auto;
     opacity: 0;
     animation: updown 4s ease 1.5s infinite;
        
